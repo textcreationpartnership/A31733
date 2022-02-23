@@ -1,0 +1,417 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Character of France to which is added, Gallus Castratus, or, An answer to a late slanderous pamphlet, called, The character of England.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1659</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 51 KB of XML-encoded text transcribed from 49 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A31733</idno>
+            <idno type="STC">Wing C2016</idno>
+            <idno type="STC">ESTC R21735</idno>
+            <idno type="EEBO-CITATION">12260822</idno>
+            <idno type="OCLC">ocm 12260822</idno>
+            <idno type="VID">57879</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A31733)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 57879)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 135:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Character of France to which is added, Gallus Castratus, or, An answer to a late slanderous pamphlet, called, The character of England.</title>
+               </titleStmt>
+               <extent>[8], 45, [3], 38 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Nath. Brooke ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1659.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"The character of England" is by John Evelyn. Cf. Keynes, G. John Evelyn, p. 63-64.</note>
+                  <note>"Gallus Castratus" has a special t.p.</note>
+                  <note>Reproduction of original in British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Evelyn, John, 1620-1706. --  Character of England.</term>
+               <term>France --  Anecdotes</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-08</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2012-08</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:57879:1" rendition="simple:additions"/>
+            <pb facs="tcp:57879:1" rendition="simple:additions"/>
+            <p>A CHARACTER OF <hi>FRANCE.</hi>
+            </p>
+            <p>To which is added, <hi>Gallus Caſtratus.</hi> OR AN ANSWER TO A LATE Slanderous Pamphlet, CALLED <hi>The Character of</hi> England.</p>
+            <p>Si talia nefanda &amp; facinora quis non <hi>Democritus?</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Nath: Brooke;</hi> at the <hi>Angel</hi> in <hi>Cornhill,</hi> 1659.</p>
+         </div>
+         <div type="author_to_the_reader">
+            <pb facs="tcp:57879:2"/>
+            <pb facs="tcp:57879:2"/>
+            <head>TO THE Impartial Reader.</head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">A</seg>Sinus ad Lyram,</hi> Room, room for a <hi>Monſieur</hi> newly come out of <hi>France</hi> to caſt the Urine of the Engliſh Nation: He begins with, <hi>My Lord, you com<g ref="char:EOLhyphen"/>mand me to give you a mi<g ref="char:EOLhyphen"/>nute account, as I under<g ref="char:EOLhyphen"/>ſtood
+<pb facs="tcp:57879:3"/>your meaning, I have diſcourſed as little of truth as I could, and endeavoured to render my ſelf as ridiculous as my fanatick Genius could permit me.</hi> Pardon me, Honoured Countrymen, if the Libel of this unci<g ref="char:EOLhyphen"/>vil Stranger hath enfor<g ref="char:EOLhyphen"/>ced theſe extravagant ex<g ref="char:EOLhyphen"/>preſſions from my Pen; certain I am, that his ex<g ref="char:EOLhyphen"/>orbitant Satyr, beſides its ſeveral groſs miſtakes hath <hi>Herod</hi>-like deſtroy<g ref="char:EOLhyphen"/>ed the Innocent, ſpared
+<pb facs="tcp:57879:3"/>no Sex, his inveterate malice having extended it ſelf to the profaneneſs of playing with holy things, he afterwards, <hi>De<g ref="char:EOLhyphen"/>magoras</hi>-like, goes about to poiſon and disfigure the reputes of our Engliſh Ladies, with ſuch black &amp; unworthy aſperſions, ſuch falfe traducings, I might write Lies, to the height of ſuch abuſe, as to raiſe a paſſion in the moſt calm and moſt un<g ref="char:EOLhyphen"/>diſturbed mind, that car<g ref="char:EOLhyphen"/>ries
+<pb facs="tcp:57879:4"/>either candor or bra<g ref="char:EOLhyphen"/>very with it, inſomuch, but that it is below the Spirit of a Gentleman to engage his Honour a<g ref="char:EOLhyphen"/>gainſt ſuch unworthi<g ref="char:EOLhyphen"/>neſs, he is fitter to be an<g ref="char:EOLhyphen"/>ſwered with the point of a Rapier, then to have ſuch a ſignal curteſie done him, for any perſon ſo to deſcend as to vouch<g ref="char:EOLhyphen"/>ſafe any other way of an<g ref="char:EOLhyphen"/>ſwer: through the urgen<g ref="char:EOLhyphen"/>cy of ſome of my dear friends I have underta<g ref="char:EOLhyphen"/>ken
+<pb facs="tcp:57879:4"/>this task, with that truth and ingenious civi<g ref="char:EOLhyphen"/>lity that a ſtranger ſhould meet with, firſt retorting the <hi>Monſieur</hi> a ſhort Cha<g ref="char:EOLhyphen"/>racter of his Country, and afterwards, in an<g ref="char:EOLhyphen"/>ſwer to him, vindicated our own: the latter I have dedicated to our injured Ladies: Courte<g ref="char:EOLhyphen"/>ous Reader, I preſent theſe my unworthy en<g ref="char:EOLhyphen"/>deavours to thy imparti<g ref="char:EOLhyphen"/>al cenſure:</p>
+            <closer>
+               <salute>Farewell.</salute>
+            </closer>
+         </div>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:57879:5"/>
+            <opener>
+               <salute>Reader,</salute>
+            </opener>
+            <p>
+               <hi>BE pleaſed to take notice, that there is now in the Preſs al<g ref="char:EOLhyphen"/>most finiſhed, a Book Intituled,</hi> Englands Worthies, <hi>ſelect lives, of the most eminent Perſons of the three Nations, from</hi> Con<g ref="char:EOLhyphen"/>ſtantine the Great, <hi>to the death of the late Protector</hi> Oliver Cromwell.</p>
+         </div>
+      </front>
+      <group>
+         <text xml:lang="eng">
+            <body>
+               <div type="text">
+                  <pb n="1" facs="tcp:57879:5"/>
+                  <head>A CHARACTER OF <hi>FRANCE.</hi>
+                  </head>
+                  <p>
+                     <seg rend="decorInit">B</seg>Eing to de<g ref="char:EOLhyphen"/>ſcribe this Large Con<g ref="char:EOLhyphen"/>tinent, I ſhall offer no Eſ<g ref="char:EOLhyphen"/>ſay either upon the mode of Chriſtianity there, (leaving that to the Dictates of that
+<pb n="2" facs="tcp:57879:6"/>Divinity implanted in the ſoule; and although not un<g ref="char:EOLhyphen"/>worthily thought it is much delapſed, yet <hi>De ſacris nil niſi bonum</hi>) nor will I play with the Crowns and Repre<g ref="char:EOLhyphen"/>ſentatives of God, nor their Will or Governments, al<g ref="char:EOLhyphen"/>though there might be found Gall enough for that ſubject; but I think it fit to begin with the common, but freeſt of the Elements, the Aire.</p>
+                  <p>The Aire in generall is not ſo pure, but it may admit of priority, and that I may juſt<g ref="char:EOLhyphen"/>ly give to <hi>England;</hi> for the <hi>French</hi> enjoy it either ſcald<g ref="char:EOLhyphen"/>ing hot, or miſerably cold;
+<pb n="3" facs="tcp:57879:6"/>ſo that it cannot be denyed by any obſervant Traveller, but in a yeare, a miracle in Nature is produced, (the re<g ref="char:EOLhyphen"/>duction of the oppoſite Zones to Friendſhip in one Climate) our Snow that only mellowes the clod here, there devoures it; and with us, that Sun that would but warm and cheriſh here, there waſts and withers. Their ſoile (like their faces) can<g ref="char:EOLhyphen"/>not much boaſt of its charms every where; for as <hi>Bodin</hi> ſaith, <hi>Exploratum eſt, deſerta &amp; inculta loca, ſi aquis &amp; viis adjungimus, duos Galliae trien<g ref="char:EOLhyphen"/>tes auferre:</hi> That is, the De<g ref="char:EOLhyphen"/>ſarts, Waters and Wayes put
+<pb n="4" facs="tcp:57879:7"/>together, take away the two thirds of <hi>France;</hi> which the tract between <hi>Burdeaux</hi> and <hi>Baijon,</hi> and the ſterile pittifull places called <hi>The Land of Gaſcoigne,</hi> do to the neighbours (as their uncom<g ref="char:EOLhyphen"/>fortable lot) well aſcertain. As for a Concluſion, the breathing of the Earth, the induct of the Aire, may be the pureſt, cleaneſt, and ſub<g ref="char:EOLhyphen"/>tileſt, if ſcabs, itch, punaries, and ſuch like effloreſcencies may be termed pure: The Country it ſelf bearing a more then ordinary affinity and friendſhip to the Stocks and the Gallowes, Wine and Hemp being two of
+<pb n="5" facs="tcp:57879:7"/>their beſt commodities.</p>
+                  <p>The Creatures or Inhabi<g ref="char:EOLhyphen"/>tants, that daily draw their Vigor from theſe (much like the Earth or ſoile they Live on) either too neer to their Sun of Government, or Frozen to death by its Abſence, the great ones frying in Luxury, the poor ones ſtarving in penury, ſo that that which God onely inflicted as a Curſe to <hi>A<g ref="char:EOLhyphen"/>dams</hi> ſeed, here it is made a plague to that Curſe: The poor peaſant shaving not that Comfort to eat that which was purchaſed by their ſweat and labour, but at the time of its product, then are
+<pb n="6" facs="tcp:57879:8"/>
+                     <hi>Marpyes</hi> and <hi>Vultures</hi> ready to ſnatch it from the Jawes of the almoſt ſtarved La<g ref="char:EOLhyphen"/>bourer, and that perhaps to ſatiate the crazed Luſt of ſome Libidinous Goat, ſo that which is counted a Mi<g ref="char:EOLhyphen"/>racle on Gods part, is here very Common to unbridle the rationall Soules, and turne them poor Aſſes into theſe ſhapes. So that hope, the turn-key of the Soul, the ſpur of high Actions is here ſo Languid that if a peaſant can but by ambition gain the purchaſe of clean Canvaſe breeches for holy<g ref="char:EOLhyphen"/>daies, and his wife a Buck<g ref="char:EOLhyphen"/>ram Petticoate for Wakes
+<pb n="7" facs="tcp:57879:8"/>and Sundays, theſe are like to wait upon them, like their good Genius, to the houre of their diſſolution: And if well kept may be en<g ref="char:EOLhyphen"/>tailed to two or three gene<g ref="char:EOLhyphen"/>rations. As for their Liber<g ref="char:EOLhyphen"/>ties their feet enjoy, they cannot boaſt much of being called free, ſince if not by nature they are brought to hooves; yet they by their monſtrous cloggs are neere reſembled to them, if we ſurvey the ſomewhat taller ſort of them we ſhall find them generally to be a ſpeaking faſhion, ſuch as have parted with their judgements for the ſituati<g ref="char:EOLhyphen"/>on
+<pb n="8" facs="tcp:57879:9"/>of their clothes that have taken a great deal of paines to be ridiculous, there being ſuch a confederacy, betwixt them and their modes to make them appeare pup<g ref="char:EOLhyphen"/>pyes, they ſhare more of the ſemſtreſſe then of the Tay<g ref="char:EOLhyphen"/>lor. Theire outſides half Lin<g ref="char:EOLhyphen"/>nen, ſo that there can ſcarce<g ref="char:EOLhyphen"/>ly a diſtinction be made be<g ref="char:EOLhyphen"/>twixt their upriſing and walking abroad it being na<g ref="char:EOLhyphen"/>turall to them to Live more by their own heat then by the warmth of their clothes, which, is the reaſon, that there are ſo many foot-boys, as numerous as their beg<g ref="char:EOLhyphen"/>gars, which are ſo many and
+<pb n="9" facs="tcp:57879:9"/>ſo impudent that in rideing they ſhall ſwarme about your horſes like flies, and be more troubleſome.</p>
+                  <p>But to proceed and pro<g ref="char:EOLhyphen"/>ſecute their Court gallan<g ref="char:EOLhyphen"/>try, I confeſs they are more abſolute; furniſhed with the Mode of Command and appeare to be Stars, (or ra<g ref="char:EOLhyphen"/>ther Meteors of the Court) yet with their Leaves try to cut them up and give a due eſtimate of them.</p>
+                  <p>A french Gentleman of this equipage, is one that weighs no Action, but by his own ſtandard: Admires nothing that is not admired by others in himſelf. He is
+<pb n="10" facs="tcp:57879:10"/>wonderfully pleaſed when others vouchſafe him a Laugh or ſmile, though to abuſe him: yet is his Con<g ref="char:EOLhyphen"/>ceit ſo high that he propo<g ref="char:EOLhyphen"/>ſeth in all Incounters a diſ<g ref="char:EOLhyphen"/>daine ſuitable to his reſent<g ref="char:EOLhyphen"/>ments, his motions ſo Ex<g ref="char:EOLhyphen"/>centricall and Irregular, and withall ſo ſuddaine, that if <hi>Pythagoras</hi> his opinion con<g ref="char:EOLhyphen"/>cerning transmigration be true, he may boaſt of an Extract from <hi>Ginny,</hi> though the Citizens of thoſe woods are much to able and out<g ref="char:EOLhyphen"/>do him by a naturall in<g ref="char:EOLhyphen"/>ſtinct. Really you would think that nature had onely left him unfiniſhed and pind
+<pb n="11" facs="tcp:57879:10"/>on his Limbs till a further opportunity, they are ſo ver<g ref="char:EOLhyphen"/>ſatile and Looſe, ſo reſem<g ref="char:EOLhyphen"/>bled by his diſcourſe that if he be wound up at the pe<g ref="char:EOLhyphen"/>riod, you ſhall not know whether it were diſcourſing, or ſcolding; And if a Rho<g ref="char:EOLhyphen"/>domontado of his valour, be not an Ingredient in this Chart, the compoſition is defaced utterly; and if you ſhould obſerve their Garbs, Shrugs, Stops, Cringes, Actions; they much come near the Mode of a Mounte<g ref="char:EOLhyphen"/>bank or Jugler, and if you will but make ſearch into his repoſitory (his pocket) you will ſwear it; when you
+<pb n="12" facs="tcp:57879:11"/>ſhall find a Miſcellany of profeſſions, as tooles for <hi>Bar<g ref="char:EOLhyphen"/>bers, Tooth-drawers, Surge<g ref="char:EOLhyphen"/>ons, Apothecarys, Taylors,</hi> what not? and it may be a bit in pickle for his loſt ap<g ref="char:EOLhyphen"/>petite. But above all pro<g ref="char:EOLhyphen"/>perties this muſt not be for<g ref="char:EOLhyphen"/>gotten, he is a ſworne ſer<g ref="char:EOLhyphen"/>vant to <hi>Venus,</hi> that ſhe ra<g ref="char:EOLhyphen"/>ther may be called the <hi>Gal<g ref="char:EOLhyphen"/>lick</hi> Goddeſs then the <hi>Cyprian</hi> Deity; nay they do ſo ſupe<g ref="char:EOLhyphen"/>rearrogate in this, that they turne one Sex into another and take pleaſure of that which good old Nature made for a ſhame; And this Luxe of body is ſo really worſhipped, that indeed they
+<pb n="13" facs="tcp:57879:11"/>are high Zelots in the Im<g ref="char:EOLhyphen"/>ployment, that I believe three parts are clapt and marked with the brand of this Goddeſſe, ſo that it may be concluded that they cannot be ſo much in Love. Let the beauty be never ſo great, without a conſiderable ſumme of money be intro<g ref="char:EOLhyphen"/>duced to commit Matrimo<g ref="char:EOLhyphen"/>ny in their frolicks, they ſpare not the externall or<g ref="char:EOLhyphen"/>naments of their Madams, they cannot at ſuch ſeaſons weare a piece of ferret rib<g ref="char:EOLhyphen"/>bon but they will cut it to pieces, and ſwallow it in Urin to celebrate their bet<g ref="char:EOLhyphen"/>ter fortunes, being furniſht
+<pb n="14" facs="tcp:57879:12"/>with ſuch convenient bold<g ref="char:EOLhyphen"/>neſſe to ſhew themſelves expert draughts-men, rather then faile, with a piece of Charcoale they will draw all manner of baudy figures and that not in the Hiero<g ref="char:EOLhyphen"/>glyphick onely, but in the moſt demonſtrative unhand<g ref="char:EOLhyphen"/>ſomeneſſe they can invent.</p>
+                  <p>As for gameing (the true pimps of time and Luxury,) they are ſo inconſiderate of the approach of penury, that (as Mr. <hi>Howell</hi> reports, a Phyſitians Son (at his being there) played in one night away above ſixty thouſand Crownes: and one <hi>Jonas</hi> a keeper of one of theſe
+<pb n="15" facs="tcp:57879:12"/>Game pits (in the ſuburbs of St. <hi>German,</hi>) ſome daies and nights had above a thouſand in the Box; this may well juſtifie the Maſter of Spring-Garden for his <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>xorbitancy in getting. For Drinking (another Luxe) they are not ſo ſober as they would invite us to think, but that plentifully they will Sacrifice to <hi>Bacchus:</hi> and when <hi>Venus</hi> hath worried them, <hi>Bacchus</hi> and <hi>Ceres</hi> muſt recrute them again. Heare what <hi>Ammianus Marcelli<g ref="char:EOLhyphen"/>nus</hi> ſaith they are, <hi>Vini avi<g ref="char:EOLhyphen"/>dum genus Affectans, ad vini ſimi litudinem multiplices po<g ref="char:EOLhyphen"/>tus;</hi> that is, they are a gene<g ref="char:EOLhyphen"/>ration
+<pb n="16" facs="tcp:57879:13"/>greedy of Drink, and Lovers of ſeverall compo<g ref="char:EOLhyphen"/>tations or draughts, witneſſe <hi>Rablais</hi> and the young Lady (a moderne Author tells us of,) that when the fumes of the prceeding Compotation had ſung her a Lullaby to <hi>Morpheus,</hi> a young Boare taking this offered opportu<g ref="char:EOLhyphen"/>nity, became picklock to her Cabinet and by this meanes or tenure in ſoccage was made a Gentleman.</p>
+                  <p>I Confeſs it hath been Accounted a piacle in the Virgins to drink wine, yet I can aſſure you that intole<g ref="char:EOLhyphen"/>rable yoke is almoſt kickt off; for they dare daſh their
+<pb n="17" facs="tcp:57879:13"/>water with this Creature ſo ſtrongly that often they daſh the braines of that Ele<g ref="char:EOLhyphen"/>ment away and of their virginity too. But for their eating I cannot blame them, to blame our long fitting at Meales, ſince that ſhal do wrong to the<g ref="char:cmbAbbrStroke">̄</g> in their often Commeſſations; which is according to the <hi>French</hi> Cuſtome, five times in one naturall day; ſo that it is a common ſaying in <hi>France,</hi> Come let us go to dinner quickly, that we may have time for a Collation in the the Afternoon, that we may go ſoon to ſupper, that after we may take a Nuncion, that
+<pb n="18" facs="tcp:57879:14"/>going to bed betimes we may riſe early to our break<g ref="char:EOLhyphen"/>faſt: But beſides theſe, when you find not their Chaps wagging, the bell may towl for their diſſolution: And really you'l be miſtaken if you think they trouble themſelves much with Ma<g ref="char:EOLhyphen"/>ſtication or Grinding it, for they tumble it down whole and leave the effect to Gods providence and natures bounty, but as touching the more particular manage<g ref="char:EOLhyphen"/>ment of their diet for the ordering of the materials: They faile not to derive their ſubtilty from ſome of the hard put too't beſieged
+<pb n="19" facs="tcp:57879:14"/>Garriſons, they make a Lit<g ref="char:EOLhyphen"/>tle to go ſo far. Somethings they do which they would have ſeem wonderfull, for they are a people full of o<g ref="char:EOLhyphen"/>ſtentation, they pretend ſtrangely to prepoſterous diſhes and are admirable in frieing of frogs with parſley, &amp;c. Which for the moſt part the men ſet forth the table with, the woman be<g ref="char:EOLhyphen"/>ing exempted as they are ſuch Grobianaes of ſluttiſh<g ref="char:EOLhyphen"/>neſſe; they are admirable Alchymiſts for the paunch, they will extract Gold out of roots, Muſhroomes or any thing they dreſſe, which as one writes, may rather be
+<pb n="20" facs="tcp:57879:15"/>called a drinking then an eating meale, ſo that it may truly be ſaid of them, that though they eat much they ſpend little having a trick beyond us Engliſhmen that they wil eat their very drink by morſels: They talk much of the Guſto, but you muſt not imagine their hodge-podge-pipkin dyet to be ſo wholeſome for the body as abateing of the hard word, to be reliſhing for the pallat; for it may rightly be ſaid of them that they trade more in ſauce then in meat, their Cooks being much of <hi>Nebuchadnezars</hi> Employ<g ref="char:EOLhyphen"/>ment, though not of ſuch
+<pb n="21" facs="tcp:57879:15"/>Antiquity; for the moſt part, I cannot ſay ſimpling but conſtantly picking of Sal<g ref="char:EOLhyphen"/>lets.</p>
+                  <p>As for their Cloathing the Camelion is not more colourable, the Are not more changeable the Wind not more unconſtant, and ſo impatient of any thing that bears the impreſs of Anti<g ref="char:EOLhyphen"/>quity (Lord what becomes of old women!) that had not God given a ſable night to give birth to a new day, I know not whether the moſt part had not had their dependence on the ſhade ere this, or elſe in a Melancholy Fit become Eunuches: their
+<pb n="22" facs="tcp:57879:16"/>chiefeſt preludes to Court<g ref="char:EOLhyphen"/>ſhip being their Coverings, and thoſe various.</p>
+                  <p>Now I will give your eyes a treatment in the view<g ref="char:EOLhyphen"/>ing of their Courted Dei<g ref="char:EOLhyphen"/>ties (their Females,) much reſembling the <hi>Aegyptian Numens</hi> both in colour and ſmalneſs; being bits of Na<g ref="char:EOLhyphen"/>tures bounty, and things as it were half beautified; Na<g ref="char:EOLhyphen"/>ture having crowded parts together, which by coaliti<g ref="char:EOLhyphen"/>on becomes a <hi>French Mada<g ref="char:EOLhyphen"/>moſeile:</hi> For if you pleaſe to view them in all parts, you will find indeed a handſom medly, nature having been ſo curteous, as what wants in
+<pb n="23" facs="tcp:57879:16"/>one part is fully made up in another: for as their waſts are very ſlender, they are ſeldome without a kennel in their Lapps, which may be miſtaken for two or three little doggs, their ſhoulders are ſo fix'd, as you would deeme them the daughters of <hi>Atlas;</hi> yet not with ſo heavy a burthen, having light heads and light<g ref="char:EOLhyphen"/>er Fancies to ballance their bodies the better. Nature hath laid a thwacking foun<g ref="char:EOLhyphen"/>dation or Buttreſs to ſome parts, that ſhe knew would be much uſed; witneſs their Poſteriours, which are ſo goodly and ample, that they
+<pb n="24" facs="tcp:57879:17"/>ſerve as a Bulwa<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>k to the other parts of the body; being (like their dirt in <hi>Pa<g ref="char:EOLhyphen"/>ris</hi>) too ſtrong for a cloſe ſiege; and what munition is there I ſuppoſe ſomtimes may be known to be whole Cannon.</p>
+                  <p>Though their mouths are more than ordinary ſtretcht to the Appetite, yet are their eyes ſmall enough, and in<g ref="char:EOLhyphen"/>deed horrible fierce and black; yet if ſtir'd, (as a lit<g ref="char:EOLhyphen"/>tle fire is quickly lighted) you ſhall find galliardy e<g ref="char:EOLhyphen"/>nough to cloy you all the year after.</p>
+                  <p>Their hands I muſt needs allow a large ſhare in the
+<pb n="25" facs="tcp:57879:17"/>Charity of the Graces; and ſo might their faces have challenged a Throne in the Court of <hi>Venus,</hi> had not Na<g ref="char:EOLhyphen"/>ture forgot to ſcoure the earthly tincture off them; yet they ſeem to me a good piece of work unpolliſhed, or a building not yet beauti<g ref="char:EOLhyphen"/>fied; ſo that there may be found a remedy for neceſſity, but none for rapture or charme: And certainly the French Ladies had no being, or were not famed when the Poets of old perceived ſuch ſplendor and glories from the faces of their Devotors; for elſe it had been a Fiction (with a witneſs) to have at<g ref="char:EOLhyphen"/>tributed
+<pb n="26" facs="tcp:57879:18"/>theſe to a ſubject not at all capable of the re<g ref="char:EOLhyphen"/>ception.</p>
+                  <p>Their beams and rayes (I mean their hair) as the Po<g ref="char:EOLhyphen"/>ets luxuriouſly baptize them, are not, I proteſt, thoſe bright beams that were of old ſo deified, nor thoſe ſun beams, thoſe threds of gold, thoſe golden nets, <hi>&amp;c.</hi> if you pleaſe to allow theſe a reſemblance, you may more juſtly call them beams of <hi>Erebus,</hi> rayes ſent from <hi>Nox</hi> and <hi>Saturne,</hi> rather curld or wreathed clouds then glorious rayes; yet I muſt ſay this, had not good Nature alotted them
+<pb n="27" facs="tcp:57879:18"/>this tincture (which is the only foyle to their ruſſet fa<g ref="char:EOLhyphen"/>ces) I ſuppoſe a man might have endured their witch<g ref="char:EOLhyphen"/>craft without motion, except of ſtomack, yet nevertheleſs the moſt part of that Sex may juſtly claim a priviledge from honeſt <hi>Don Quixot</hi> (to be ſtiled Ladies of the ill-fa<g ref="char:EOLhyphen"/>voured faces) and had not the Countries heat put a forward ſalacity upon their Males, ſo that any meat will ſerve their greedy appetite, theſe poor ſouls might have as well expected Beauty as Courtſhip.</p>
+                  <p>Their diſpoſitions have much of vivacity, a Con<g ref="char:EOLhyphen"/>verſe
+<pb n="28" facs="tcp:57879:19"/>as free as the Air, and as univerſally courted, and ſo ſweetly are they mem<g ref="char:EOLhyphen"/>bred with a tongue, that it may give a hint in finding the perpetual motion, friend<g ref="char:EOLhyphen"/>ly Nature having ſet it with ſo ſtrong a ſpring, that after ſhe hath wound it once up, it will keep its courſe to the tombe, if not afterwards; ſo that, I ſuppoſe, no Land doth ſo tyrannize, or put ſuch in<g ref="char:EOLhyphen"/>ceſſant drudgery upon that member as the French, ſince though they have many ho<g ref="char:EOLhyphen"/>ly dayes to every petty Saint, yet this could never have the comfort to find any hour of reſt: ſince theſe
+<pb n="29" facs="tcp:57879:19"/>were none of <hi>Pythagoras</hi> his Schollars, to whom was commended this, <hi>digito compeſcere labellum,</hi> not to ſpeak much till in the age of wiſdom; nor did they ever ſacrifice to <hi>Harprocrates</hi> their freedom and cuſtomary chat, being a ſtrong enemy to this Deity and his follow<g ref="char:EOLhyphen"/>ers: I muſt give them this Eulogy, that they are no ſul<g ref="char:EOLhyphen"/>len people, but free, open breaſted, and take as much liberty to come ſo neer their primitive nakedneſs, that if it were not for the injuries of the Air, I dare affirm they would ſcorn theſe fig-leaves of garb to cover them; but
+<pb n="30" facs="tcp:57879:20"/>as much as they can they ſet ſome upon the ſtall, hoping it may induce Paſſengers to think well of their Commo<g ref="char:EOLhyphen"/>dities within: yet I will aſ<g ref="char:EOLhyphen"/>ſure you they are very coy of their lips: it may be this may be aſſigned as a reaſon, knowing that Nature by their curtayl'd ſtature hath made the backſide too neer the market. And when I ſalute their cheek it ſhall be my honour to be contented, ſince really their breath is not the Quinteſſence of Ro<g ref="char:EOLhyphen"/>ſes; neither is a ſalute by a kiſſe much amongſt them, ſince they are ſo diſcreet as to keep at a diſtance that
+<pb n="31" facs="tcp:57879:20"/>which is deſervingly brand<g ref="char:EOLhyphen"/>ed with a <hi>Noli me Tangere;</hi> and further, if kiſſes be only Intentions, their quick active principals had rather ſooner be at the work: But I ſhall leave with this Apology to thoſe that are Stars amongſt them, as deſerving a more gallant character, both Gentlemen and Ladies, and thoſe noble ſouls I blot out, and ſet them aſide, this cha<g ref="char:EOLhyphen"/>racter, having as much ho<g ref="char:EOLhyphen"/>nour for deſert as any Crea<g ref="char:EOLhyphen"/>ture living that pretends to ſerve them.</p>
+                  <p>Their Cities are not to be hiſt at, neither ſhall I al<g ref="char:EOLhyphen"/>low them the bragging cha<g ref="char:EOLhyphen"/>racter
+<pb n="32" facs="tcp:57879:21"/>that is given them, ſince if they had not fonldy beſtowed all on <hi>Paris,</hi> and let the reſt goe a begging, my Charity might have been greater; ſo that the French ſay, it is rather a World then a City; ſo it is indeed, a world of confuſion, a world of duſt, a world of Lacquies, a world of ſtink, and indeed a world of fooleries and vanities.</p>
+                  <p>The City is large, yet if you look upon its ſtuffing you will find the brain is too large for the ſenſes, ſo that the croud of people, their quick motion, their naſty de<g ref="char:EOLhyphen"/>port, their native duſt, give ſuch a welcome in a hot day
+<pb n="33" facs="tcp:57879:21"/>to Travellers, that if their ſtreets were not broad the Inhabitants would be ſtran<g ref="char:EOLhyphen"/>gled in their ſleep for want of breath, it is ſo peſter<g ref="char:EOLhyphen"/>ed with Inmates, having in one Tenement three or four Families.</p>
+                  <p>Their Buildings are uni<g ref="char:EOLhyphen"/>form, yet poorly lined with<g ref="char:EOLhyphen"/>in, ſo that in a word you may call it a pile of <hi>Royal Almes<g ref="char:EOLhyphen"/>houſes;</hi> indeed it is no won<g ref="char:EOLhyphen"/>der that they ſhould brag ſo of the ſpaciouſneſs of their houſes, when the ſmalneſs of their Kitchins makes them the larger: one great incon<g ref="char:EOLhyphen"/>venience, you can never want winter or ſummer, duſt or
+<pb n="34" facs="tcp:57879:22"/>dirt, ſo that at all times of the year it hath a ſtrong charm againſt Invaſion, ex<g ref="char:EOLhyphen"/>cept you would invade the Plague, or the Cave of <hi>Charon.</hi>
+                  </p>
+                  <p>As for their pieces of Architecture there is no ſuch <hi>Grandeur,</hi> and if you ſhould reſemble them to <hi>Italy,</hi> you may find no compariſon; large they are, but not ſo no<g ref="char:EOLhyphen"/>ble as is ſuppoſed; but if they were, they are like Sat<g ref="char:EOLhyphen"/>tin pinckt upon Canvas; but for their private Build<g ref="char:EOLhyphen"/>ings and Shops, a Pedlers Booth in <hi>England</hi> would ſhame the beſt of them; and a Pedler at a Mart with us,
+<pb n="35" facs="tcp:57879:22"/>would make very well a French Merchant, ſo that a Friend of mine oretaking one of theſe Creatures ri<g ref="char:EOLhyphen"/>ding the Road, he complain<g ref="char:EOLhyphen"/>ing of the hardneſs of the times, he anſwered, I, quoth he, I wonder how the middle ſort of people live, when ſuch Merchants as I can ſcarce live; and you may believe him, if you knew his Carga in the Waggon, which was two or three do<g ref="char:EOLhyphen"/>zen of Spaniſh brooms: Of ſuch as theſe Bragadochia's is <hi>Paris</hi> filled and cloyed; this may be truly ſaid of them, that their baſeſt trades have ſooner arrived to great
+<pb n="36" facs="tcp:57879:23"/>riches then thoſe that are amongſt them noted of an<g ref="char:EOLhyphen"/>cient Nobility, and live ac<g ref="char:EOLhyphen"/>cording to the dignity of their births; and for their way of dealing, as to the ſub<g ref="char:EOLhyphen"/>tilty of their Trade, they are ſeldome deceived, for they truſt no body, and if any bo<g ref="char:EOLhyphen"/>dy truſt them, they had as good burn the bill of their particulars, if they are not under lock and key, or can but find out any evaſion to ſhift themſelves; they may brag of their merchandiſes with other Nations, but the moſt ſtaple Commodities they have received hath been from <hi>England,</hi> for
+<pb n="37" facs="tcp:57879:23"/>which for the moſt part they have exchanged no other then fantaſtical faſhions, toyes, and kickſhaws to put off, which till they can make good their importunities they will wrack thoſe they traffick with to their own conditions, with their forced faces, ſhrugs, and cringes in their Inns and Hoſteries; they for the moſt part give their ſervants no wages, but beg themſelves ſo fervently for them, that the diſcerning Traveller cannot but ſcruple whether they or their ſer<g ref="char:EOLhyphen"/>vants are moſt fellow-feel<g ref="char:EOLhyphen"/>ers of the extent of his li<g ref="char:EOLhyphen"/>berality, for which only rea<g ref="char:EOLhyphen"/>ſon
+<pb n="38" facs="tcp:57879:24"/>he muſt endure the im<g ref="char:EOLhyphen"/>pertinencie of their unne<g ref="char:EOLhyphen"/>ceſſary attendance, for their general entertainments; they are trunk-hoſed, bom<g ref="char:EOLhyphen"/>baſted with the mode, and nothing elſe, they diſtinguiſh them according to their uſu<g ref="char:EOLhyphen"/>all cuſtom; as they allow of their grapes in their Vine<g ref="char:EOLhyphen"/>yards, a Paſſenger may taſt to quench his thirſt, but he that tarries above their ſtint<g ref="char:EOLhyphen"/>ed humor miſtakes him<g ref="char:EOLhyphen"/>ſelf; their cuſhions he will find them to be quick-ſet hedges of no continuance; there is no Nation that takes more freedom for gibeing and provoking of
+<pb n="39" facs="tcp:57879:24"/>ſtrangers, for they are gene<g ref="char:EOLhyphen"/>rally raſh, and want nothing of the wildneſs of behavi<g ref="char:EOLhyphen"/>our, when their paſſions are thus deſperately ſet on their angers have no eyes; to complement them at that time is to ſet a train to gun<g ref="char:EOLhyphen"/>powder, they will ſo clatter with their diſcourſe, except they are in their more aiery genius of continual ſinging of bawdy and drunken ſongs, when it will be a wiſe<g ref="char:EOLhyphen"/>mans task to diſtinguiſh be<g ref="char:EOLhyphen"/>twixt their extravagant meeter and galloping proſe; as for their Policy, Govern<g ref="char:EOLhyphen"/>ment, King, Nobles, their Treaties with us, Inter-mar<g ref="char:EOLhyphen"/>riages,
+<pb n="40" facs="tcp:57879:25"/>their Maſſacres, ſale of Promotions and Judica<g ref="char:EOLhyphen"/>tories, and other things of this nature; other men with a larger pen having expreſt them excellently well, I ſhall <hi>manum a Tabulâ,</hi> and for this I have done I expect no re<g ref="char:EOLhyphen"/>ward, nor fear any envy, only
+<q>Sat eſt tentaſſe—</q>
+                  </p>
+                  <p>Yet to ſweeten my Ge<g ref="char:EOLhyphen"/>nius fit for my dear native Country I ſhall conclude all with this undoubted Eulo<g ref="char:EOLhyphen"/>gy or Character of <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> which a Greek Poet hath drawn to the life.
+<pb n="41" facs="tcp:57879:25"/>
+                     <q>
+                        <l>—<gap reason="foreign">
+                              <desc>〈 in non-Latin alphabet 〉</desc>
+                           </gap>
+                        </l>
+                        <l>
+                           <gap reason="foreign">
+                              <desc>〈 in non-Latin alphabet 〉</desc>
+                           </gap>.</l>
+                     </q> And what <hi>Eumines</hi> ſaith;</p>
+                  <q>
+                     <p>
+                        <hi>O Fortunata &amp; omnibus Beatior terris</hi> Britannia <hi>quae</hi> Conſtantinum Caeſarem <hi>pri<g ref="char:EOLhyphen"/>mum vidiſti; Merito te omni<g ref="char:EOLhyphen"/>bus coeli &amp; ſoli dotibus natu<g ref="char:EOLhyphen"/>ra donavit in qua ſegetum tanta faecunditas &amp; muneribus utriuſque &amp; Cereris &amp; Liberi in qua nemora ſine immani<g ref="char:EOLhyphen"/>bus beſtiis, terra ſine ſerpenti<g ref="char:EOLhyphen"/>bus noxiis, contrà pecorum mi<g ref="char:EOLhyphen"/>tium innumerabilis multi<g ref="char:EOLhyphen"/>tudo.</hi>
+                     </p>
+                  </q>
+                  <p>O moſt fortunate <hi>Brit<g ref="char:EOLhyphen"/>tain,</hi> more bleſſed then any
+<pb n="42" facs="tcp:57879:26"/>other Country, which firſt didſt ſee <hi>Constantine,</hi> Nature hath laviſhly endowed thee with all decorements of Heaven and Earth; in thee neither the exceſſive cold of winter, or ſcorching heat of Summer doth mo<g ref="char:EOLhyphen"/>leſt the Inhabitants, thou ſwelleſt with ſuch a plenty of all kind of Corn, that thou mayeſt be called the Darling of <hi>Ceres</hi> and <hi>Bac<g ref="char:EOLhyphen"/>chus;</hi> thy Groves are with<g ref="char:EOLhyphen"/>out ſalvage rapacious Crea<g ref="char:EOLhyphen"/>tures, and thy Graſſe with<g ref="char:EOLhyphen"/>out poyſonous Serpents; thy fields are covered with innumerable heads of Cat<g ref="char:EOLhyphen"/>tell tame and wild, their
+<pb n="43" facs="tcp:57879:26"/>dugs extended with milk and their backs with fleece, both rich and thick; for the pleaſure of life, thy dayes are long, and no night but hath ſome glimpſe of light; the glo<g ref="char:EOLhyphen"/>rious Sun that ſets and goes down in other Coun<g ref="char:EOLhyphen"/>tries, ſeems only to paſſe by thy Coaſts.</p>
+                  <p>Nature as her Darling hath imbraced thee with a rich and large Moat, in<g ref="char:EOLhyphen"/>tending ſtill as ſhe made, to lay up her principals and originals in this her Ca<g ref="char:EOLhyphen"/>binet.</p>
+                  <p>Their Faces they have like Angels, Wits like
+<pb n="44" facs="tcp:57879:27"/>Muſes, Charmes like Graces, caſt in a mould between the earthly Spa<g ref="char:EOLhyphen"/>niard and trifling French; A martial, noble, and hoſpi<g ref="char:EOLhyphen"/>table people; I muſt end with this Diſtick:
+<q>
+                        <l>Quicquid amat luxus quic<g ref="char:EOLhyphen"/>quid deſiderat uſus,</l>
+                        <l>Ex te proveniat, vel aliunde tibi.</l>
+                     </q>
+                  </p>
+                  <p>I have not beſtowed ſo much gall on this Chara<g ref="char:EOLhyphen"/>cter, as I know a modeſt Reply is more deſired, in which, as my fancie hath its traverſes, there are ſeve<g ref="char:EOLhyphen"/>rall reflections from my
+<pb n="45" facs="tcp:57879:27"/>Anſwer which more inlarge this Character; if I have not had ſalt enough in it tis out of a civility that this im<g ref="char:EOLhyphen"/>pertinent Mounſieur never merited.</p>
+                  <trailer>FINIS.</trailer>
+               </div>
+            </body>
+         </text>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:57879:28"/>
+                  <pb facs="tcp:57879:28"/>
+                  <p>
+                     <hi>Gallus Caſtratus.</hi> AN ANSVVER TO A Slanderous Pamphlet, Called the CHARACTER OF <hi>ENGLAND.</hi>
+                  </p>
+                  <p>Si talia nefanda &amp; facinora quis non <hi>Democritus.</hi>
+                  </p>
+                  <p>
+                     <hi>LONDON,</hi> Printed for <hi>Nath. Brookes</hi> at the <hi>Angel</hi> in <hi>Cornhill,</hi> 1659.</p>
+               </div>
+               <div type="dedication">
+                  <pb facs="tcp:57879:29"/>
+                  <p>TO THE ILLUSTRIOUS STARRES OF GLORY, THE IN<g ref="char:EOLhyphen"/>COMPARABLE BEAUTIES OF THE ENGLISH NATION.</p>
+                  <p>THESE WITH A DEEP HUMILITY.</p>
+               </div>
+            </front>
+            <body>
+               <div type="text">
+                  <pb n="1" facs="tcp:57879:29"/>
+                  <head>Gallus Castratus, <hi>&amp;c.</hi>
+                  </head>
+                  <opener>
+                     <salute>Ladies,</salute>
+                  </opener>
+                  <p>
+                     <seg rend="decorInit">T</seg>O make a Hue and Cry, or reſearch af<g ref="char:EOLhyphen"/>ter this Saty<g ref="char:EOLhyphen"/>riſt, were to enquire after yeſterdayes Air, or the laſt evenings Sun; ſince the perpetrating a ſin againſt Charity and divine Beauty, hath occaſioned him to conceal his unworthy
+<pb n="2" facs="tcp:57879:30"/>name; yet by your permiſ<g ref="char:EOLhyphen"/>ſion (fair Ladies) I ſhall ad<g ref="char:EOLhyphen"/>venture a throw after him, ſo as to beſtow on him a Character not unworthy of his fact.</p>
+                  <p>He may be thought one of the diſlodged brood of wandering <hi>Cain,</hi> who having ſinn'd in good, ſets his hand againſt all for bad; ſuch as theſe are true ſons of the Curſe, they bring brambles for violets, and thorns for Roſes; deſperate perſons to converſe with, as infecti<g ref="char:EOLhyphen"/>ous in their ſouls as in their limbs; a Traveller, that makes it his buſineſs to de<g ref="char:EOLhyphen"/>face the glories of Nature,
+<pb n="3" facs="tcp:57879:30"/>not to admire and adore them; a frothy Wit, not conſenting to its captivity, hath in his Caprichios ſnort<g ref="char:EOLhyphen"/>ed his foam upon the ſweet face of this bleſſed Iſland; the method he pretends too, for he hath none, was ſure begot in a <hi>Hirricano,</hi> where being frighted by his conſci<g ref="char:EOLhyphen"/>ence, he thruſts things toge<g ref="char:EOLhyphen"/>ther <hi>Al 'a Negligen'ce;</hi> A brat only born to die accur<g ref="char:EOLhyphen"/>ſed, and to ſhew to the world that <hi>France</hi> hath of late her Monſters as well as <hi>A<g ref="char:EOLhyphen"/>frica.</hi>
+                  </p>
+                  <p>His end I cannot remark, except like <hi>Eroſtratus</hi> to purchaſe a fame, though by
+<pb n="4" facs="tcp:57879:31"/>the vileſt infamy, or to en<g ref="char:EOLhyphen"/>gage a ſmile from thoſe (<hi>Ban<g ref="char:EOLhyphen"/>dittors</hi> to Nature) the rude off-ſpring of a Brothel or a dunghil: a Monſter fitting to rove after its Sire, rather then find a <hi>Mecaenas</hi> in any ſerious Family; ſo unfit to bear the name of a Chara<g ref="char:EOLhyphen"/>cter, that it may well be ſti<g ref="char:EOLhyphen"/>led the Leproſie of <hi>France</hi> caſt upon <hi>England:</hi> But by this time (Ladies) I ſuppoſe you have enough of this un<g ref="char:EOLhyphen"/>maskt Gentleman; now to the work it ſelf.</p>
+                  <p>And firſt he apologizeth for his rudeneſs by the com<g ref="char:EOLhyphen"/>mands of a Perſon (once a Devoto to the Charmes of
+<pb n="5" facs="tcp:57879:31"/>
+                     <hi>England</hi>) a Perſon of quali<g ref="char:EOLhyphen"/>ty (a Lord) but if his Qua<g ref="char:EOLhyphen"/>lities anſwered his Dignity, ſurely his Lordſhip hath re<g ref="char:EOLhyphen"/>pented him of his com<g ref="char:EOLhyphen"/>mands.</p>
+                  <p>He declares he had licence only for <hi>(Minute things:)</hi> His Honour thought great ones too much beyond the ſphear of his Activity and Cognizance: but to parti<g ref="char:EOLhyphen"/>cularize his aſperſions, which I ſhall civilly name his complaints,</p>
+                  <div n="1" type="complaint">
+                     <p>
+                        <hi>Comp.</hi> 1. His firſt is, (Of the ſtiffe whiſpering and for<g ref="char:EOLhyphen"/>bidden countenances) at <hi>Dover.</hi>
+                     </p>
+                     <p>Surely his laſt collation
+<pb n="6" facs="tcp:57879:32"/>of the Grape at <hi>Calais,</hi> or the high trott of <hi>Neptune,</hi> had contributed much to this miſtake; ſince as <hi>Comi<g ref="char:EOLhyphen"/>nes</hi> his own Country-man ſaith, <hi>I uſed to go to</hi> Calais <hi>(when in the hands of the Engliſh) without a Paſſe, for</hi> (ſaith he) <hi>they are very courte<g ref="char:EOLhyphen"/>ous and honourable in their en<g ref="char:EOLhyphen"/>tertainments to ſtrangers. And further, in their tryals with Forrainers they allow them a Jury,</hi> de Medietate Lingua. Surely then they had not loſt their native Gallantry at this <hi>Monſieurs</hi> landing: But for a certain the <hi>Mon<g ref="char:EOLhyphen"/>ſieur</hi> brought a face from <hi>Madagaſcar,</hi> or a habit from
+<pb n="7" facs="tcp:57879:32"/>
+                        <hi>America,</hi> not fit to be ſeen without a motion or amaze<g ref="char:EOLhyphen"/>ment, as the Spaniards are uſually reſpected in their Country. But I ſee this poor Gentleman is mighty ten<g ref="char:EOLhyphen"/>der, for he ſeems to take pet at every tree that grows not ſtraight, and excepts at any perſon that comes but neer him, much more that doth but touch him: The very Boyes give him an Adven<g ref="char:EOLhyphen"/>ture much of <hi>Don Quixots,</hi> which makes him view all things through inchantment; and I wonder I hear no news of his Eccho, a <hi>Sancho Pan<g ref="char:EOLhyphen"/>cho</hi> to flatter his folly into a Romance.</p>
+                  </div>
+                  <div n="2" type="complaint">
+                     <pb n="8" facs="tcp:57879:33"/>
+                     <p>
+                        <hi>Comp.</hi> 2. To ſee his con<g ref="char:EOLhyphen"/>fident Hoſt ſit down cheek by joule by him, belching and puffing Tobacco, and that our Gentlemen do uſu<g ref="char:EOLhyphen"/>ally entertain them, and are pleaſed with their imperti<g ref="char:EOLhyphen"/>nencies.</p>
+                     <p>This <hi>Mounſieur</hi> was (I dare ſay) not baniſhed <hi>France</hi> for his great head-piece; elſe he might have conſidered himſelf now in a free State, where no perſon is ſhackled by Prerogative, but may be company (by way of Di<g ref="char:EOLhyphen"/>vertiſement) to the greateſt piece of Honour in <hi>Europe;</hi> and if you can fit your Lac<g ref="char:EOLhyphen"/>quey upon what laſt your
+<pb n="9" facs="tcp:57879:33"/>humor ſhall frame, why may not ſometimes an imperti<g ref="char:EOLhyphen"/>nency pleaſe your fancy, as well as the <hi>Character of Eng<g ref="char:EOLhyphen"/>land</hi> doth ſome of your La<g ref="char:EOLhyphen"/>dies? For you muſt know, our People are not an Aſſe<g ref="char:EOLhyphen"/>like galled Nation, who are bound by their chains to come no neerer then an in<g ref="char:EOLhyphen"/>terview of Princes: But I confeſs my Hoſt was ſome<g ref="char:EOLhyphen"/>what too bold to approach ſo nigh, leſt he might have had imployment for his fin<g ref="char:EOLhyphen"/>gers and nails all the year after.</p>
+                     <p>But I hope <hi>Monſieur</hi> you have paid your reckoning, and are now coming to <hi>Lon<g ref="char:EOLhyphen"/>don</hi>
+                        <pb n="10" facs="tcp:57879:34"/>as you ſay (the Metro<g ref="char:EOLhyphen"/>polis of all civility.)</p>
+                  </div>
+                  <div n="3" type="complaint">
+                     <p>
+                        <hi>Comp.</hi> 3. You write, That you had ſome Honour thrown upon you, as dirt, ſquibs, roots, nay Rams horns, entring <hi>London.</hi>
+                     </p>
+                     <p>Seriouſly, Sir, I wonder at the laſt Lot, how come they to hit upon this honour for you; I muſt tell you, that it was a ſad and lowring Conſtellation or Ludibrium of Fortune caſt upon your perſon, that in that great place of civility ſuch omi<g ref="char:EOLhyphen"/>nous Careſſes ſhould be of<g ref="char:EOLhyphen"/>fered you, ſince your deſerts had been better paid you in your own Country, and with
+<pb n="11" facs="tcp:57879:34"/>your own coyn. As for the Car-men, as you ſay over<g ref="char:EOLhyphen"/>threw the Hell-carts, I won<g ref="char:EOLhyphen"/>der, Sir, how your company eſcaped, ſince there was a ſtory, that the Devil rid through our ſtreets with ſome Blades having none of the beſt faces.</p>
+                  </div>
+                  <div n="4" type="complaint">
+                     <p>
+                        <hi>Comp.</hi> 4. That our City is a wooden, Northern, and inartificial congeſtion of houſes.</p>
+                     <p>This <hi>Monſieur,</hi> I perceive, is no curious Architect, for finding fault with our wood<g ref="char:EOLhyphen"/>en Buildings, which conſider <hi>London,</hi> as a Merchantile City, ſtrong and beautiful, her manner of building a<g ref="char:EOLhyphen"/>greeable
+<pb n="12" facs="tcp:57879:35"/>to the jettyes, bay<g ref="char:EOLhyphen"/>windows, and returns in her ſtreets; every part ſo inga<g ref="char:EOLhyphen"/>ged one with another, that though under ſeveral modes, yet like loving Citizens they hold hand in hand fa<g ref="char:EOLhyphen"/>ſter then brick or ſtone can do, and by their diverſity of frontings do declare a free<g ref="char:EOLhyphen"/>dome of our Subjects, that what they acquire by indu<g ref="char:EOLhyphen"/>ſtry, may be beſtowed at pleaſure; not obliged to build ſo for the will of the Princes: Whereas the Citi<g ref="char:EOLhyphen"/>zens of <hi>Paris</hi> are ſo forced to uniformity, that their Structures ſeem to be only one continued magnificent
+<pb n="13" facs="tcp:57879:35"/>wall loop-hol'd; whereas variety is more pleaſant, if it be not ſo fantaſtick as to incommodate paſſage, height, or ſight, as it is an un<g ref="char:EOLhyphen"/>doubted Maxim in the Op<g ref="char:EOLhyphen"/>ticks, that it lengthens your entertainment to a rapture: whereas in the French walk the eye in an inſtant is glut<g ref="char:EOLhyphen"/>ted with an identity, ſo that having ſeen one City or ſtreet, the eye is not urged to take her revels in another, all being ſo like to a primitive pattern of one livery, it choaks delight; as for mag<g ref="char:EOLhyphen"/>nificent Buildings, or Rega<g ref="char:EOLhyphen"/>lio's, <hi>Mounſieur</hi> forgets the Abby of <hi>Weſtminſter,</hi> the
+<pb n="14" facs="tcp:57879:36"/>Royal Exchange, two ſuch works of Architecture, that for their kind and uſe meet not with any parallel in <hi>France;</hi> though, I confeſs, the abſolute tyranny of your Kings by the blood and ſweat of the inſlaved Pea<g ref="char:EOLhyphen"/>ſantry have erected Pallaces as it ſeemeth to me works of impertinency and leiſure; but if you view further their Precordia, you will find the work like Sattin pinckt up<g ref="char:EOLhyphen"/>on Canvas, being ſo furniſh<g ref="char:EOLhyphen"/>ed, that you would think them the Edifices of ſome former Inhabitants frighted from them, and poſſeſſed by <hi>Nomades</hi> or <hi>Scythians,</hi> that
+<pb n="15" facs="tcp:57879:36"/>never knew the uſe of ſuch civil Utenſils: beſides, our Kings have had larger Thea<g ref="char:EOLhyphen"/>ters of Majeſty then theſe; for whereas the French King is ſedentary in <hi>Paris,</hi> our Kings have been like the Sun, not confined to a place, but inriching all places with their Juſtice and Glory: and ſo our Pallaces are Beau<g ref="char:EOLhyphen"/>ties ſcattered and equally di<g ref="char:EOLhyphen"/>ſtributed to all places of the Nation: No King (for the extent of Earth) having more Reſidencies of Maje<g ref="char:EOLhyphen"/>ſty then our Engliſh Poten<g ref="char:EOLhyphen"/>tates have had, ſo that if this City (of <hi>London</hi>) be con<g ref="char:EOLhyphen"/>ſidered as a Mercantile City,
+<pb n="16" facs="tcp:57879:37"/>and place of trading, and the Kings Court but as an iſſue of his favour to theſe Mer<g ref="char:EOLhyphen"/>chants: You will find he hath Grandeurs both Noble and ſufficient. What a charme of Majeſty is there of the Houſes of the No<g ref="char:EOLhyphen"/>bility, fronting that Chriſtal and ſweet Nymph (the <hi>Thames?</hi>) Beſides, the City illuſtrated with the like in many places; together with the ſtately Structures belong<g ref="char:EOLhyphen"/>ing to Citizens, that, I am confident, cannot be paral<g ref="char:EOLhyphen"/>leld by the whole trade of <hi>France</hi> or <hi>Europe.</hi>
+                     </p>
+                     <p>But I am bound to follow you, <hi>Monſieur,</hi> up and down
+<pb n="17" facs="tcp:57879:37"/>from the Tavern to Church, then to the Shambles, and indeed it ſeemes you viſited things (like our Ruſticks) with a ſtreightned heart, and a wide mouth, for now you bark moſt monſtrouſly a<g ref="char:EOLhyphen"/>gainſt our Religion and Pro<g ref="char:EOLhyphen"/>feſſors of it: but ſeriouſly, had you minded any thing of Charity, you would not have given a character of us in our diſtempers, taking the preſent advantage of our be<g ref="char:EOLhyphen"/>ing ſick of Schiſme and Di<g ref="char:EOLhyphen"/>viſion: But I find you one of thoſe <hi>Lucian</hi> ſcoffers, that rather then not exer<g ref="char:EOLhyphen"/>ciſe your froth, the Gods ſhall not ſcape your Animo<g ref="char:EOLhyphen"/>ſity.
+<pb n="18" facs="tcp:57879:38"/>I cannot like that ſpi<g ref="char:EOLhyphen"/>rit in a Frenchman, which would be ſcorned in a Hea<g ref="char:EOLhyphen"/>then, or like a Jew ſpit upon the Saviour of the World, becauſe not their inſomnia<g ref="char:EOLhyphen"/>ted Meſſias: but <hi>Monſieur, procul hinc procul ite prophani.</hi> Yet I ſeriouſly aſſure you (dear Ladies) as touching their ſeveral worſhips, of theſe equivocal Chriſtians, as he cals them, it is a newly forged blaſphemy againſt the Truth, and I queſtion not but his God-father will one day congratulate his intelli<g ref="char:EOLhyphen"/>gence with a meritorious re<g ref="char:EOLhyphen"/>ward.</p>
+                     <p>Well now into the Ta<g ref="char:EOLhyphen"/>vern
+<pb n="19" facs="tcp:57879:38"/>I muſt follow my Frenchman, who is my <hi>Ignis fatuus,</hi> leads me in no me<g ref="char:EOLhyphen"/>thod or order, but what ſees he now? Now a legion of adverſities, as Shops, Smoak, Coaches, Sea-coal; would nor any wiſe man think this man mad, or tumbled lately out of ſome Chaos? But his chief regret is for the Sea<g ref="char:EOLhyphen"/>coal which he ſaith:</p>
+                  </div>
+                  <div n="5" type="complaint">
+                     <p>
+                        <hi>Comp.</hi> 5. That if there be any Hell it is in this Vulcano on a foggy day.</p>
+                     <p>You may not well queſti<g ref="char:EOLhyphen"/>on a Hell, <hi>Monſieur,</hi> ſince in this piece of impiety and unhandſomeneſs, if you had your reward, you might ea<g ref="char:EOLhyphen"/>ſily
+<pb n="20" facs="tcp:57879:39"/>perceive you are in the ſuburbs already: Methinks this was as ſtrange an Ad<g ref="char:EOLhyphen"/>venture as the Knight Er<g ref="char:EOLhyphen"/>rants Wind-mils, and I ſup<g ref="char:EOLhyphen"/>poſe as much crazed your body; ſo that I wonder at your high valour, that dared Adventure, that eyelet-holed invaded body of yours, to ſuch corroding fumes; but peradventure you are well ſheathed with Brimſtone and Butter againſt this infection, and you might have known, or I wonder your Lord in<g ref="char:EOLhyphen"/>formed you not, that the ſulphure of our combuſti<g ref="char:EOLhyphen"/>bles is a very great enemy to any Sacrifice made in fa<g ref="char:EOLhyphen"/>vour
+<pb n="21" facs="tcp:57879:39"/>of <hi>Venus,</hi> her Oblations being burnt upon Altars in our Suburbs.</p>
+                  </div>
+                  <div n="6" type="complaint">
+                     <p>
+                        <hi>Comp.</hi> 6. But now if you will hear a loud one, mark his words well; I have, ſaith he, been in a ſpatious Church, where I could not diſcern the Miniſter for ſmoak.</p>
+                     <p>
+                        <hi>Ex ungue Leonem,</hi> one may judge of the reſt of his Narrative by this notorious untruth: Did ever any ſo<g ref="char:EOLhyphen"/>ber man happen upon ſuch an incounter? Surely this Gentlemans Opticks were much eclipſed, or ſome drunken vapors had over<g ref="char:EOLhyphen"/>clowded his mind, or elſe he
+<pb n="22" facs="tcp:57879:40"/>had framed in his ſmoaky Cranium ſuch an impoſture; and I wonder, Sir, you make not a Recantation for ſuch groſſe inſipid irregularity, ſince if our very Boys read but your Book, they would hoot at your Nation, indeed for your ſweet-lye-compo<g ref="char:EOLhyphen"/>ſed wonder.</p>
+                  </div>
+                  <div n="7" type="complaint">
+                     <p>
+                        <hi>Comp.</hi> 7. There is a num<g ref="char:EOLhyphen"/>ber of houſes where they ſell Ale (a muddy Beve<g ref="char:EOLhyphen"/>rage) where the Gentle<g ref="char:EOLhyphen"/>men ſit and ſpend much of their time in drinking it.</p>
+                     <p>As for that wholeſome, pleaſant, reſtorative, noble drink, the bleſſed off-ſpring
+<pb n="23" facs="tcp:57879:40"/>of <hi>Ceres;</hi> what impudence dares find fault, or caſt a cloud over that gift of Na<g ref="char:EOLhyphen"/>ture? Since that if it could be conveyed, all the Earth would court it; witneſs the great eſteem is had in all parts of this our Engliſh Li<g ref="char:EOLhyphen"/>quor; ſo that one of your Count<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ymen Doctors ſaith, that there is no Liquor more increaſeth the radical moi<g ref="char:EOLhyphen"/>ſture, and preſerves the natu<g ref="char:EOLhyphen"/>ral heat; theſe two being the pillars of our decaying bodies. Now for any one to ſpeak againſt the props of life, deſerves to die, as his own enemy, under an unla<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ented death. But I am
+<pb n="24" facs="tcp:57879:41"/>ſure of this, that this tipple, and the grey Gooſe-wing, had almoſt torn all the fea<g ref="char:EOLhyphen"/>thers from the back of <hi>France:</hi> And certainly this <hi>Monſieur</hi> had ſome other reaſon then he produceth, to inveigh againſt this Liquor; it may be it holds no friend<g ref="char:EOLhyphen"/>ly correſpondency with <hi>Ve<g ref="char:EOLhyphen"/>nus</hi> races, or elſe is not com<g ref="char:EOLhyphen"/>modious (by reaſon of its fumes) for a Nation half drunk already.</p>
+                     <p>And now he appeals to his Lord (his confident) and as a Preludium (knowing my Lord was no enemy to the French Beauties) to the pro<g ref="char:EOLhyphen"/>ſecuting on his road of ſcan<g ref="char:EOLhyphen"/>dals.
+<pb n="25" facs="tcp:57879:41"/>And now let all the world conſider this unheard of impudence againſt a Sex, the whole hoaſt of Heroes court with Careſſes due to their charms, Creatures (ra<g ref="char:EOLhyphen"/>ther a Creation) framed by the indulgent hand of the Deity, as it were, cordials poured down from Heaven in compaſſion to our infirmi<g ref="char:EOLhyphen"/>ties: You, even you (great Souls) his folly hath not bluſht to aſperſe, with the like ſucceſs, pardon the dirty expreſſion, as the breath of a dunghil doth the Sun, which ſtill ſhall ſhine as glorious as his infatuated mind ſhall be obſcured with infamy.</p>
+                  </div>
+                  <div n="8" type="complaint">
+                     <pb n="26" facs="tcp:57879:42"/>
+                     <p>
+                        <hi>Comp.</hi> 8. That our Ladies ſuffer themſelves to be treat<g ref="char:EOLhyphen"/>ed in a Tavern, and drink crowned cups, &amp; ſtrain them through their ſmocks.</p>
+                     <p>This is an horrid impudence indeed: ſurvey the whole u<g ref="char:EOLhyphen"/>niverſe, as their beauties ex<g ref="char:EOLhyphen"/>cel, ſo, then theſe fair crea<g ref="char:EOLhyphen"/>tures in general, their lives; none whoſe lives are modeſter without ignomi<g ref="char:EOLhyphen"/>ny, and freer without ſcan<g ref="char:EOLhyphen"/>dals, then our Engliſh La<g ref="char:EOLhyphen"/>dies.</p>
+                     <p>This Gentleman comes over with our laſt deſultory french viſitation, who had received ſo much virility by the poſting of our Horſes in
+<pb n="27" facs="tcp:57879:42"/>the dayes of travel, that they (being in <hi>London)</hi> did that thirteenth labour to <hi>Hercules</hi> twelve, purging a ſtable of ſo much filth, that our ſuburbs ſhall ſing an <hi>Io Pean</hi> to them hereafter: And truly thoſe poor pieces of mortality bred an excellent French trade of it, enough to keep them till the like opportunity may ſo ſeaſonably court them. And theſe are your <hi>Madamo<g ref="char:EOLhyphen"/>ſeilles,</hi> who (<hi>Proteus</hi> like) changed their ſhape (to in<g ref="char:EOLhyphen"/>gratiate their hire) into La<g ref="char:EOLhyphen"/>dies, Counteſſes, this beau<g ref="char:EOLhyphen"/>ty, and that beauty, till they had taken Exciſe of your limbs, gave you as good as
+<pb n="28" facs="tcp:57879:43"/>you brought, left you looſe in the hilts. Theſe <hi>Monſ.</hi> are your Ladies that drink crowned healths, and ſtrained through their ſmocks; theſe are thoſe Beauties that are ſo free; to ſuch a Nation indeed it would be too great impiety for civil Ladies to neglect their noble ſouls, their proper perſons, to court your deformities and diſeaſes.</p>
+                  </div>
+                  <div n="9" type="complaint">
+                     <p>
+                        <hi>Comp. 9.</hi> It is the after<g ref="char:EOLhyphen"/>noon buſineſs of the Engliſh Gentlemen only to drink and be drunk.</p>
+                     <p>Surely ſuch as was your Females company, ſuch was your Males; ſurely you rak'd Hell for theſe deboiſt
+<pb n="29" facs="tcp:57879:43"/>unthrifty Cadets, for other<g ref="char:EOLhyphen"/>wiſe I never knew this to be a cuſtom amongſt civil Gen<g ref="char:EOLhyphen"/>tlemen. You ſay, after they have taken their repaſt with the Ladies they withdraw into another Room; certain<g ref="char:EOLhyphen"/>ly, <hi>Monſieur,</hi> this is a hand<g ref="char:EOLhyphen"/>ſome ſeparation, for the Gentlemen to carreſe one with another, having ſome<g ref="char:EOLhyphen"/>times Maſculine Intereſts in hand; whereas you (think<g ref="char:EOLhyphen"/>ing your ſelves only born for the ſmock, and your ill<g ref="char:EOLhyphen"/>favoured Ladies of the plac<g ref="char:EOLhyphen"/>ket) never ſeperate your confuſed intereſts, knowing no diſtinction between Male and Female civilized inte<g ref="char:EOLhyphen"/>reſts,
+<pb n="30" facs="tcp:57879:44"/>but only by the more retired managements of Na<g ref="char:EOLhyphen"/>ture; and certainly you would ſeem to be ſo fond of your <hi>Mopſa's,</hi> as not (out of a complement) to give them time to diſimbogue. As for our drinking healths or pledges, if you knew but the way to our cuſtom, you will find it ſprang from a lauda<g ref="char:EOLhyphen"/>ble neceſſity at firſt, &amp; was in earneſt a duty performed re<g ref="char:EOLhyphen"/>ally one friend for another, The Danes know it. But <hi>Monſieur,</hi> you do but fanati<g ref="char:EOLhyphen"/>cally trifle in all your di<g ref="char:EOLhyphen"/>ſcourſe: As for our Cadets that viſit the Gallows ſo frequently (as you ſay) I
+<pb n="31" facs="tcp:57879:44"/>ſuppoſe yours in <hi>France</hi> are, or ought to be, ſo ſeriouſly imployed, as their proper merit, ſince your Roberies are meerly Maſſacres, ſuch Cowards are ye that ye firſt ſhoot before you dare bid ſtand, they never taking purſe before it is crimſond reaking hot in bloud, of ſuch horrible actions, none but baſe cruel ſpirited Bravoes could be guilty; this one unmanly trick might enough Satyr againſt all the Grandeurs in <hi>France.</hi> As concerning our Gentry, I ſhall conclude, they come ſhort of your follies, as much as you come
+<pb n="30" facs="tcp:57879:45"/>
+                        <gap reason="duplicate" extent="1 page">
+                           <desc>〈1 page duplicate〉</desc>
+                        </gap>
+                        <pb n="31" facs="tcp:57879:45"/>
+                        <gap reason="duplicate" extent="1 page">
+                           <desc>〈1 page duplicate〉</desc>
+                        </gap>
+                        <pb n="32" facs="tcp:57879:46"/>ſhort of their native gallan<g ref="char:EOLhyphen"/>try.</p>
+                  </div>
+                  <div n="10" type="complaint">
+                     <p>
+                        <hi>Comp.</hi> 10. The Ladies of <hi>England</hi> have deſigns at playing at Cards.</p>
+                     <p>Pray <hi>Monſieur,</hi> what's the end of play but ingenious deſigns, products of pure fancy, and ready managery? and if you would diſhonour them for this, you may as well carp at their ingenuity: I ſuppoſe your Ladies will never prove guilty of ſhew<g ref="char:EOLhyphen"/>ing ſo much of judgment, ſince for to be dextrous at play cannot poſſibly be the lot of French Ladies, for they want two neceſſary Virtues to it, Silence and Pa<g ref="char:EOLhyphen"/>tience;
+<pb n="33" facs="tcp:57879:46"/>which at what a di<g ref="char:EOLhyphen"/>ſtance theſe ſtand with them, let all the world judge.</p>
+                  </div>
+                  <div n="11" type="complaint">
+                     <p>
+                        <hi>Comp.</hi> 11. That our Gen<g ref="char:EOLhyphen"/>tlemen and Ladies are defe<g ref="char:EOLhyphen"/>ctive in Courtſhip and Ad<g ref="char:EOLhyphen"/>dreſſes.</p>
+                     <p>I confeſs if he means our Ladies want that impu<g ref="char:EOLhyphen"/>dence, which he cals Aſſu<g ref="char:EOLhyphen"/>rance, when it is as incompa<g ref="char:EOLhyphen"/>tible with modeſty, as the Devils are with glorious An<g ref="char:EOLhyphen"/>gels; or if you mean a for<g ref="char:EOLhyphen"/>wardneſs to court the Male, to jet and garb it in compa<g ref="char:EOLhyphen"/>ny, like the Queens <hi>quondam</hi> petit-dancer, which you call Addreſs, I confeſs we wil not
+<pb n="34" facs="tcp:57879:47"/>vye with you; or if you mean by charmingdiſcourſe, a bold unlimited chattering, taking into cognizance cere<g ref="char:EOLhyphen"/>monious diſſembled imper<g ref="char:EOLhyphen"/>tinencies, both in affront to Heaven and Earth; in theſe our wiſe Ladies come ſhort I confeſs; but if you mean an Addreſs, where Modeſty keeps its decorum, betwixt impudent gallantry and baſhful ruſticity, this, this is the addreſs of our incompa<g ref="char:EOLhyphen"/>rable Beauties, which out<g ref="char:EOLhyphen"/>ſhine yours, as the greater Lights of the Firmament do the leſſer. As for our Gallants the Gentlemen of this Nation, none I am ſure
+<pb n="35" facs="tcp:57879:47"/>are better able to manage an honourable and ſerious Entertainment with more cordial handſome magnifi<g ref="char:EOLhyphen"/>cence of addreſs then they, ſetting aſide the mode of the high Rope, of our Fren<g ref="char:EOLhyphen"/>chified Engliſh Apes. But when you ſhall pretend no child legitimate but your ill-faced baſtards, and call that gallantry which ſwims uppermoſt in a giddy Crani<g ref="char:EOLhyphen"/>um and foiſted garb, a defor<g ref="char:EOLhyphen"/>med poſture againſt the wiſe product of Nature, a goatiſh concupiſcence, a ſalacious approach, fit only for Sa<g ref="char:EOLhyphen"/>tyrs; if, <hi>Monſieur,</hi> theſe be your Addreſſes, the Beaſts
+<pb n="36" facs="tcp:57879:48"/>of the Earth, the ſcum of rudeneſs, the excrements of Nature, may diſcipline you in ſuch wayes of reputed manners.</p>
+                     <p>As for our Aping you, it is confeſt a few looſe young ſouls, giddy like your ſelves, are your Diſciples; but we may thank our Alliance with you by civil contracts, which by your Locuſt-like ſwarming hath infected us at ſuch a height, that we ſhall hardly claw it off without bloud or ſmart.</p>
+                  </div>
+                  <div n="12" type="complaint">
+                     <p>
+                        <hi>Comp.</hi> 12. To ſee the Bals ſo diſpoſed by dancing Maſters, and their boldneſs with the Ladies.</p>
+                     <pb n="37" facs="tcp:57879:48"/>
+                     <p>
+                        <hi>Monſieur,</hi> We intend not Bals to make a meal of them, but as a condiment in<g ref="char:EOLhyphen"/>tended <hi>(a la Vollee)</hi> as tran<g ref="char:EOLhyphen"/>ſient actions, only for a di<g ref="char:EOLhyphen"/>vertiſement; yet want we not a decorum and a magni<g ref="char:EOLhyphen"/>ficency, witneſs thoſe grand Maſques in the Kings dayes, which were thought to excel all of this nature in <hi>Europe,</hi> as much as our Playes do all your rhiming fools-bables; but your curtaild Intellige<g ref="char:cmbAbbrStroke">̄</g>ce, which hath brought you proviſion no further then from ſome petty Schools of children, neither well educa<g ref="char:EOLhyphen"/>ted nor well practiſed.</p>
+                     <pb n="38" facs="tcp:57879:49"/>
+                     <p>But, <hi>Monſieur,</hi> I hope theſe Anſwers may inform you into a Recantation, or elſe I muſt leave you ſcurri<g ref="char:EOLhyphen"/>lous, and condemn your Pamphlet to accommodate for ſundry uſes and purpoſes inſtead of your weekly Ga<g ref="char:EOLhyphen"/>zets, as New-lye printed, and New-lye come forth.</p>
+                  </div>
+                  <trailer>FINIS.</trailer>
+                  <pb facs="tcp:57879:49"/>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>
